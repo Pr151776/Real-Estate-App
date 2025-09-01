@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "image": "/images/category/3_bhk_villa.jpg",
+    "name": "ABAD 3 BHK VILLA",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+    "total_area": 1450,
+    "rooms": 3,
+    "kitchen": 2,
+    "bathroom": 3,
+    "parking": 2
+  },
+  {
+    "id": 2,
+    "image": "/images/category/4_bhk_apartment.jpg",
+    "name": "4 BHK APARTMENT",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+    "total_area": 3000,
+    "rooms": 4,
+    "kitchen": 1,
+    "bathroom": 5,
+    "parking": 2
+  },
+  {
+    "id": 3,
+    "image": "/images/category/3_bhk_flat.jpg",
+    "name": "SKYLINE 3 BHK FLAT",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+    "total_area": 2850,
+    "rooms": 2,
+    "kitchen": 1,
+    "bathroom": 2,
+    "parking": 1
+  },
+  {
+    "id": 4,
+    "image": "/images/category/4_bhk_house.jpg",
+    "name": "4 BHK HOUSE",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+    "total_area": 1450,
+    "rooms": 3,
+    "kitchen": 2,
+    "bathroom": 3,
+    "parking": 2
+  },
+  {
+    "id": 5,
+    "image": "/images/category/furnished_house.jpg",
+    "name": "FURNISHED OFFICE",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+    "total_area": 612,
+    "rooms": 3,
+    "kitchen": "-",
+    "bathroom": 2,
+    "parking": 10
+  }
+]
