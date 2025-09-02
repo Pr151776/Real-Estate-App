@@ -4,6 +4,15 @@ import Footer from "../components/Footer";
 import Typography from "@mui/material/Typography";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
+import image1 from "/images/blog/image1.jpg";
+import image2 from "/images/blog/image2.jpg";
+import image3 from "/images/blog/image3.jpg";
+import image4 from "/images/blog/image4.jpg";
+import image5 from "/images/blog/image5.jpg";
+import news from "/images/blog/news.png";
+import apartment from "/images/blog/apartment.png";
+import newProject from "/images/blog/newProject.png";
+import house from "/images/blog/house.png";
 
 const Blog = () => {
   return (
@@ -32,7 +41,7 @@ const Blog = () => {
             {/* Image 1 */}
             <div className="relative">
               <div className="w-[1000px] h-[600px] object-cover overflow-hidden relative">
-                <img src="/images/blog/image1.jpg" alt="Blog Images" />
+                <img src={image1} alt="Blog Images" />
                 <div className="absolute inset-0 bg-[linear-gradient(to_bottom,rgba(217,217,217,0)_0%,rgba(0,0,0,0.7)_89%)]"></div>
               </div>
               <div className="w-[1000px] absolute flex justify-between items-center bottom-5 px-5">
@@ -56,7 +65,7 @@ const Blog = () => {
             {/* Image 2 */}
             <div className="relative">
               <div className="w-[1000px] h-[600px] object-cover overflow-hidden relative">
-                <img src="/images/blog/image2.jpg" alt="Blog Images" />
+                <img src={image2} alt="Blog Images" />
                 <div className="absolute inset-0 bg-[linear-gradient(to_bottom,rgba(217,217,217,0)_0%,rgba(0,0,0,0.7)_89%)]"></div>
               </div>
               <div className="w-[1000px] absolute flex justify-between items-center bottom-5 px-5">
@@ -79,7 +88,7 @@ const Blog = () => {
             {/* Image 3 */}
             <div className="relative">
               <div className="w-[1000px] h-[600px] object-cover overflow-hidden relative">
-                <img src="/images/blog/image3.jpg" alt="Blog Images" />
+                <img src={image3} alt="Blog Images" />
                 <div className="absolute inset-0 bg-[linear-gradient(to_bottom,rgba(217,217,217,0)_0%,rgba(0,0,0,0.7)_89%)]"></div>
               </div>
               <div className="w-[1000px] absolute flex justify-between items-center bottom-5 px-5">
@@ -103,7 +112,7 @@ const Blog = () => {
             {/* Image 4 */}
             <div className="relative">
               <div className="w-[1000px] h-[600px] object-cover overflow-hidden relative">
-                <img src="/images/blog/image4.jpg" alt="Blog Images" />
+                <img src={image4} alt="Blog Images" />
                 <div className="absolute inset-0 bg-[linear-gradient(to_bottom,rgba(217,217,217,0)_0%,rgba(0,0,0,0.7)_89%)]"></div>
               </div>
               <div className="w-[1000px] absolute flex justify-between items-center bottom-5 px-5">
@@ -126,7 +135,7 @@ const Blog = () => {
             {/* Image 5 */}
             <div className="relative">
               <div className="w-[1000px] h-[600px] object-cover overflow-hidden relative">
-                <img src="/images/blog/image5.jpg" alt="Blog Images" />
+                <img src={image5} alt="Blog Images" />
                 <div className="absolute inset-0 bg-[linear-gradient(to_bottom,rgba(217,217,217,0)_0%,rgba(0,0,0,0.7)_89%)]"></div>
               </div>
               <div className="w-[1000px] absolute flex justify-between items-center bottom-5 px-5">
@@ -170,7 +179,7 @@ const Blog = () => {
                 <div className="flex items-center gap-2">
                   <Typography className="!text-[16px]">News</Typography>
                   <img
-                    src="/images/blog/news.png"
+                    src={news}
                     alt="News image"
                     className="w-[30px]"
                   />
@@ -182,7 +191,7 @@ const Blog = () => {
                 <div className="flex items-center gap-2">
                   <Typography className="!text-[16px]">Apartments</Typography>
                   <img
-                    src="/images/blog/apartment.png"
+                    src={apartment}
                     alt="News image"
                     className="w-[30px]"
                   />
@@ -194,7 +203,7 @@ const Blog = () => {
                 <div className="flex items-center gap-2">
                   <Typography className="!text-[16px]">New Projects</Typography>
                   <img
-                    src="/images/blog/newProject.png"
+                    src={newProject}
                     alt="News image"
                     className="w-[30px]"
                   />
@@ -206,7 +215,7 @@ const Blog = () => {
                 <div className="flex items-center gap-2">
                   <Typography className="!text-[16px]">Houses</Typography>
                   <img
-                    src="/images/blog/house.png"
+                    src={house}
                     alt="News image"
                     className="w-[30px]"
                   />
@@ -223,7 +232,7 @@ const Blog = () => {
               <div className="">
                 <div className="flex gap-5 mb-7">
                   <img
-                    src="/images/blog/image1.jpg"
+                    src={image1}
                     alt="Image 1"
                     width={200}
                     className="h-[110px]"
@@ -235,8 +244,8 @@ const Blog = () => {
                 <hr className="w-full border border-[#C1AA46] mb-4" />
                 <div className="flex gap-5 mb-7">
                   <img
-                    src="/images/blog/image2.jpg"
-                    alt="Image 1"
+                    src={image2}
+                    alt="Image 2"
                     width={200}
                     className="h-[110px]"
                   />
@@ -247,8 +256,8 @@ const Blog = () => {
                 <hr className="w-full border border-[#C1AA46] mb-4" />
                 <div className="flex gap-5 mb-7">
                   <img
-                    src="/images/blog/image5.jpg"
-                    alt="Image 1"
+                    src={image5}
+                    alt="Image 5"
                     width={200}
                     className="h-[110px]"
                   />

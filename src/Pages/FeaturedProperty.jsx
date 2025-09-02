@@ -1,4 +1,3 @@
-import React from "react";
 import premium from "../assets/images/property/premium_apartment.jpg"
 
 const FeaturedProperty = () => {

@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "../components/Navbar";
 import "../App.css";
 import premium from "../assets/images/property/premium_apartment.jpg";
@@ -8,8 +7,12 @@ import balcony from "../assets/images/property/balcony.png";
 import filter_img from "../assets/images/property/category/filter.png";
 import category_list from "../assets/images/property/category/category_list.json";
 import Footer from "../components/Footer";
+import total_area from "/images/category/total_area.png";
+import rooms from "/images/category/rooms.svg";
+import kitchen from "/images/category/kitchen.png";
+import bathroom from "/images/category/bathroom.png";
+import parking from "/images/category/parking.png";
 
-// color #C1AA46
 
 const Property = () => {
   return (
@@ -139,7 +142,7 @@ const Property = () => {
                   <p className="text-2xl !font-light flex justify-between mb-4">
                     <div className="flex gap-1">
                     <img
-                      src="images/category/total_area.png"
+                      src={total_area}
                       alt="total area image"
                       width={30}
                     />{" "}
@@ -150,7 +153,7 @@ const Property = () => {
                   <p className="text-2xl !font-light flex justify-between mb-4">
                     <div className="flex gap-1">
                       <img
-                      src="images/category/rooms.svg"
+                      src={rooms}
                       alt="Rooms image"
                       width={30}
                     />{" "}
@@ -163,7 +166,7 @@ const Property = () => {
                   <p className="text-2xl !font-light flex justify-between mb-4">
                     <div className="flex gap-1">
                       <img
-                      src="images/category/kitchen.png"
+                      src={kitchen}
                       alt="Kitchen image"
                       width={30}
                     />{" "}
@@ -176,7 +179,7 @@ const Property = () => {
                   <p className="text-2xl !font-light flex justify-between mb-4">
                     <div className="flex gap-1">
                       <img
-                      src="images/category/bathroom.png"
+                      src={bathroom}
                       alt="Bathroom image"
                       width={30}
                     />{" "}
@@ -189,7 +192,7 @@ const Property = () => {
                   <p className="text-2xl !font-light flex justify-between mb-10">
                     <div className="flex gap-1">
                       <img
-                      src="images/category/parking.png"
+                      src={parking}
                       alt="Parking"
                       width={30}
                     />{" "}

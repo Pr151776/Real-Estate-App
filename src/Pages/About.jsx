@@ -2,6 +2,18 @@ import { NavLink } from "react-router-dom";
 import { FaStar } from "react-icons/fa6";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import member1 from "/about/member1.jpg";
+import member2 from "/about/member2.jpg";
+import member3 from "/about/member3.jpg";
+import member4 from "/about/member4.jpg";
+import review from "/about/review.png";
+import buy_property from "/images/buy_property.png";
+import sell from "/images/sell.png";
+import rent from "/images/rent.png";
+import map from "/about/map.png";
+import user1 from "/testominals/user1.jpg";
+import user4 from "/testominals/user4.jpg";
+import user2 from "/testominals/user2.jpg";
 
 const About = () => {
   return (
@@ -35,7 +47,7 @@ const About = () => {
             <div className="flex flex-wrap gap-3 w-[800px]">
               <div className="w-[350px] h-[500px] text-white border-2 border-[rgba(193,170,70,1)]">
                 <img
-                  src="about/member1.jpg"
+                  src={member1}
                   alt="Member 1"
                   className="w-full h-full"
                 />
@@ -48,8 +60,8 @@ const About = () => {
               </div>
               <div className="w-[350px] h-[500px] text-white border-2 border-[rgba(193,170,70,1)]">
                 <img
-                  src="about/member2.jpg"
-                  alt="Member 1"
+                  src={member2}
+                  alt="Member 2"
                   className="w-full h-full"
                 />
                 <div className="text-2xl font-medium! relative -top-15 left-4">
@@ -61,8 +73,8 @@ const About = () => {
               </div>
               <div className="w-[350px] h-[500px] text-white border-2 border-[rgba(193,170,70,1)]">
                 <img
-                  src="about/member3.jpg"
-                  alt="Member 1"
+                  src={member3}
+                  alt="Member 3"
                   className="w-full h-full"
                 />
                 <div className="text-2xl font-medium! relative -top-15 left-4">
@@ -74,8 +86,8 @@ const About = () => {
               </div>
               <div className="w-[350px] h-[500px] text-white border-2 border-[rgba(193,170,70,1)]">
                 <img
-                  src="about/member4.jpg"
-                  alt="Member 1"
+                  src={member4}
+                  alt="Member 4"
                   className="w-full h-full"
                 />
                 <div className="text-2xl font-medium! relative -top-15 left-4">
@@ -110,7 +122,7 @@ const About = () => {
                   <span className="text-4xl font-medium!">Rating</span>
                 </div>
                 <div>
-                  <img src="about/review.png" alt="Review images" />
+                  <img src={review} alt="Review images" />
                 </div>
               </div>
             </div>
@@ -142,7 +154,7 @@ const About = () => {
             <div className="flex gap-3 mb-20">
               <div>
                 <img
-                  src="images/buy_property.png"
+                  src={buy_property}
                   alt=""
                   width={120}
                   height={120}
@@ -160,7 +172,7 @@ const About = () => {
 
             <div className="flex gap-3 mb-20">
               <div>
-                <img src="images/sell.png" alt="" width={120} height={120} />
+                <img src={sell} alt="" width={120} height={120} />
               </div>
               <div className="w-[500px]">
                 <p className="text-[40px] font-semibold!">Sell Property</p>
@@ -173,7 +185,7 @@ const About = () => {
 
             <div className="flex gap-3 mb-20">
               <div>
-                <img src="images/rent.png" alt="" width={120} height={120} />
+                <img src={rent} alt="" width={120} height={120} />
               </div>
               <div className="w-[500px]">
                 <p className="text-[40px] font-semibold!">Rent Property</p>
@@ -186,7 +198,7 @@ const About = () => {
             </div>
           </div>
           <div>
-            <img src="about/map.png" alt="Map" width={550} />
+            <img src={map} alt="Map" width={550} />
           </div>
         </div>
       </section>
@@ -214,7 +226,7 @@ const About = () => {
             {/* User 1 */}
             <div className="w-[500px] h-[500px] relative flex flex-col justify-center items-center border-2 border-[rgba(193,170,70,1)]">
               <div className="w-[148px] h-[148px] rounded-full overflow-hidden border-2 border-[rgba(193,170,70,1)] mb-2">
-                <img src="testominals/user1.jpg" alt="User 1" />
+                <img src={user1} alt="User 1" />
               </div>
               <p className="text-[32px] mb-2">Franklin</p>
               <div className="flex gap-2 mb-2">
@@ -232,7 +244,7 @@ const About = () => {
             {/* User 4 */}
             <div className="w-[500px] h-[500px] relative flex flex-col justify-center items-center border-2 border-[rgba(193,170,70,1)]">
               <div className="w-[148px] h-[148px] rounded-full overflow-hidden border-2 border-[rgba(193,170,70,1)] mb-2">
-                <img src="testominals/user4.jpg" alt="User 4" />
+                <img src={user4} alt="User 4" />
               </div>
               <p className="text-[32px] mb-2"> Neil Nicolas</p>
               <div className="flex gap-2 mb-2">
@@ -250,7 +262,7 @@ const About = () => {
             {/* User 2 */}
             <div className="w-[500px] h-[500px] relative flex flex-col justify-center items-center border-2 border-[rgba(193,170,70,1)]">
               <div className="w-[148px] h-[148px] rounded-full overflow-hidden border-2 border-[rgba(193,170,70,1)] mb-2">
-                <img src="testominals/user2.jpg" alt="User 2" />
+                <img src={user2} alt="User 2" />
               </div>
               <p className="text-[32px] mb-2">Franklin</p>
               <div className="flex gap-2 mb-2">

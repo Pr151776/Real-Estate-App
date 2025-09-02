@@ -1,8 +1,11 @@
-import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-
-// background: #C1AA46;
+import contact from "/contact/map.png";
+import youtube from "/contact/youtube.png";
+import facebook from "/contact/youtube.png";
+import insta from "/contact/insta.png";
+import twitter from "/contact/twitter.png";
+import linkedin from "/contact/linkedin.png";
 
 const Contact = () => {
   return (
@@ -27,7 +30,7 @@ const Contact = () => {
         <div className="flex gap-1 justify-around mb-20">
           <div className="">
             <img
-              src="contact/map.png"
+              src={contact}
               alt="Map image"
               className="w-[800px] h-[840px]"
             />
@@ -120,11 +123,11 @@ const Contact = () => {
             </p>
           </div>
           <div className="flex justify-center gap-20 pt-5">
-              <img src="contact/youtube.png" alt="youtube" width={90} height={90} />
-              <img src="contact/facebook.png" alt="facebook" width={90} height={90} />
-              <img src="contact/insta.png" alt="instagram" width={90} height={90} />
-              <img src="contact/twitter.png" alt="twitter" width={90} height={90} />
-              <img src="contact/linkedin.png" alt="LinkedIn" width={90} height={90} />
+              <img src={youtube} alt="youtube" width={90} height={90} />
+              <img src={facebook} alt="facebook" width={90} height={90} />
+              <img src={insta} alt="instagram" width={90} height={90} />
+              <img src={twitter} alt="twitter" width={90} height={90} />
+              <img src={linkedin} alt="LinkedIn" width={90} height={90} />
             </div>
         </div>
       </div>
