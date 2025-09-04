@@ -7,28 +7,6 @@ import { RiSearchFill } from "react-icons/ri";
 import { FaStar } from "react-icons/fa6";
 import Footer from "../components/Footer.jsx";
 import Typography from "@mui/material/Typography";
-import home from "/images/home.jpg";
-import building_construction_logo from "/images/building_construction_logo.png";
-import about_section_img from "/images/about_section_img.jpg";
-import bathroom from "/images/property/bathroom.png";
-import balcony from "/images/property/balcony.png";
-import home_hashtag from "/images/property/home_hashtag.svg";
-import book from "/images/property/book.png";
-import group_users from "/images/property/group-users.png";
-import buy_property from "/images/buy_property.png";
-import sell from "/images/sell.png";
-import rent from "/images/rent.png";
-import key from "/images/key.jpg";
-import user1 from "/testominals/user1.jpg";
-import user2 from "/testominals/user2.jpg";
-import user3 from "/testominals/user3.jpg";
-import user4 from "/testominals/user4.jpg";
-import bg from "/testominals/bg.jpg";
-import youtube from "/contact/youtube.png";
-import facebook from "/contact/youtube.png";
-import insta from "/contact/insta.png";
-import twitter from "/contact/twitter.png";
-import linkedin from "/contact/linkedin.png";
 
 const Home = () => {
   return (
@@ -36,14 +14,14 @@ const Home = () => {
       {/* Home section */}
       <section className="max-w-full max-h-1/2">
         <img
-          src={home}
+          src="/images/home.jpg"
           alt="Home background images"
           className="h-250 w-full"
         />
         {/* rectangle_2 */}
         <div className="h-[100px] bg-black absolute top-0 w-full opacity-95">
           <img
-            src={building_construction_logo}
+            src="/images/building_construction_logo.png"
             alt="building_construction_logo"
             width={200}
             height={103}
@@ -51,7 +29,7 @@ const Home = () => {
           />
           <div className="rectangle_2 relative -top-40 flex float-end pe-15">
             <p className="text-[rgba(193,170,70,1)]">EN/</p>
-            <img src="images/indian_flag.jpg" width={30} alt="Indian flag" />
+            <img src="/images/indian_flag.jpg" width={30} alt="Indian flag" />
           </div>
         </div>
 
@@ -133,7 +111,7 @@ const Home = () => {
           </article>
           <article>
             <img
-              src={about_section_img}
+              src="/images/about_section_img.jpg"
               alt="about_section_img"
               width={750}
               height={550}
@@ -178,11 +156,11 @@ const Home = () => {
                   <HomeIcon /> {prop.room}
                 </p>
                 <p className="flex gap-2 text-[10px] items-center">
-                  <img src={bathroom} width={20} />{" "}
+                  <img src="/images/property/bathroom.png" width={20} />{" "}
                   {prop.bathroom}
                 </p>
                 <p className="flex gap-2 text-[10px] items-center">
-                  <img src={balcony} width={20} />{" "}
+                  <img src="/images/property/balcony.png" width={20} />{" "}
                   {prop.balcony}
                 </p>
               </div>
@@ -244,7 +222,7 @@ const Home = () => {
           <div className="flex flex-col justify-center items-center border-2 border-[rgba(193,170,70,1)] w-[400px] h-[400px] px-5 py-4">
             <div>
               <img
-                src={home_hashtag}
+                src="/images/property/home_hashtag.svg"
                 alt="Home hashtag image"
                 className="text-[rgba(193,170,70,1)]!"
                 width={150}
@@ -260,7 +238,7 @@ const Home = () => {
           <div className="flex flex-col justify-center items-center border-2 border-[rgba(193,170,70,1)] w-[400px] h-[400px] px-5 py-4">
             <div className="pb-10">
               <img
-                src={book}
+                src="/images/property/book.png"
                 alt="Group peoples"
                 className="group_peoples"
               />
@@ -276,7 +254,7 @@ const Home = () => {
           <div className="flex flex-col justify-center items-center border-2 border-[rgba(193,170,70,1)] w-[400px] h-[400px] px-5">
             <div className="pb-10">
               <img
-                src={group_users}
+                src="/images/property/group-users.png"
                 alt="Group peoples"
                 className="group_peoples"
               />
@@ -310,7 +288,7 @@ const Home = () => {
             <div className="flex gap-3 mb-20">
               <div>
                 <img
-                  src={buy_property}
+                  src="/images/buy_property.png"
                   alt=""
                   width={150}
                   height={150}
@@ -328,7 +306,7 @@ const Home = () => {
 
             <div className="flex gap-3 mb-20">
               <div>
-                <img src={sell} alt="" width={150} height={150} />
+                <img src="/images/sell.png" alt="" width={150} height={150} />
               </div>
               <div className="w-[650px]">
                 <p className="text-[40px] font-semibold!">Sell Property</p>
@@ -341,7 +319,7 @@ const Home = () => {
 
             <div className="flex gap-3 mb-20">
               <div>
-                <img src={rent} alt="" width={150} height={150} />
+                <img src="/images/rent.png" alt="" width={150} height={150} />
               </div>
               <div className="w-[650px]">
                 <p className="text-[40px] font-semibold!">Rent Property</p>
@@ -355,7 +333,7 @@ const Home = () => {
           </div>
           <div>
             <img
-              src={key}
+              src="/images/key.jpg"
               alt="Key and hand image"
               className="key_hand"
             />
@@ -396,7 +374,7 @@ const Home = () => {
           {/* User 1 */}
           <div className="w-[500px] h-[480px] flex flex-col justify-center items-center border border-[rgba(193,170,70,1)]">
             <div className="w-[148px] h-[148px] rounded-full overflow-hidden border-2 border-[rgba(193,170,70,1)] mb-2">
-              <img src={user1} alt="User 1" />
+              <img src="/testominals/user1.jpg" alt="User 1" />
             </div>
             <p className="text-[32px] mb-2">Franklin</p>
             <div className="flex gap-2 mb-2">
@@ -414,7 +392,7 @@ const Home = () => {
           {/* User 2 */}
           <div className="w-[500px] h-[480px] flex flex-col justify-center items-center border border-[rgba(193,170,70,1)] relative -top-68">
             <div className="w-[148px] h-[148px] rounded-full overflow-hidden border-2 border-[rgba(193,170,70,1)] mb-2">
-              <img src={user2} alt="User 2" />
+              <img src="/testominals/user2.jpg" alt="User 2" />
             </div>
             <p className="text-[32px] mb-2">Amy Julio</p>
             <div className="flex gap-2 mb-2">
@@ -432,7 +410,7 @@ const Home = () => {
           {/* User 3 */}
           <div className="w-[500px] h-[480px]  flex flex-col justify-center items-center border border-[rgba(193,170,70,1)]">
             <div className="w-[148px] h-[148px] rounded-full overflow-hidden border-2 border-[rgba(193,170,70,1)] mb-2">
-              <img src={user3} alt="User 3" />
+              <img src="/testominals/user3.jpg" alt="User 3" />
             </div>
             <p className="text-[32px] mb-2">Muad P N</p>
             <div className="flex gap-2 mb-2">
@@ -450,7 +428,7 @@ const Home = () => {
           {/* User 4 */}
           <div className="w-[500px] h-[480px]  flex flex-col justify-center items-center border border-[rgba(193,170,70,1)] relative -top-65">
             <div className="w-[148px] h-[148px] rounded-full overflow-hidden border-2 border-[rgba(193,170,70,1)] mb-2">
-              <img src={user4} alt="User 4" />
+              <img src="/testominals/user4.jpg" alt="User 4" />
             </div>
             <p className="text-[32px] mb-2"> Neil Nicolas</p>
             <div className="flex gap-2 mb-2">
@@ -474,7 +452,7 @@ const Home = () => {
       <article>
         <div className="max-h-[1650px]">
           <img
-            src={bg}
+            src="/testominals/bg.jpg"
             alt="testominal bg image"
             className="w-full h-[800px] z-0"
           />
@@ -518,17 +496,18 @@ const Home = () => {
                   <p className="text-5xl font-semibold! my-6">Get in Connect with Us</p>
                 </div>
                 <div className="flex justify-center gap-20 pt-5">
-                  <img src={youtube} alt="youtube" width={90} height={90} />
-                  <img src={facebook} alt="facebook" width={90} height={90} />
-                  <img src={insta} alt="instagram" width={90} height={90} />
-                  <img src={twitter} alt="twitter" width={90} height={90} />
-                  <img src={linkedin} alt="LinkedIn" width={90} height={90} />
+                  <img src="/contact/youtube.png" alt="youtube" width={90} height={90} />
+                  <img src="/contact/youtube.png" alt="facebook" width={90} height={90} />
+                  <img src="/contact/insta.png" alt="instagram" width={90} height={90} />
+                  <img src="/contact/twitter.png" alt="twitter" width={90} height={90} />
+                  <img src="/contact/linkedin.png" alt="LinkedIn" width={90} height={90} />
                 </div>
               </div>
             </div>
           </div>
         </div>
       </article>
+      
       {/* Footer */}
       <Footer />
     </div>
